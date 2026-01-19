@@ -24,7 +24,7 @@ The Ray compute engine automatically selects optimal join strategies:
 [source,python]
 ----
 def select_join_strategy(feature_size_mb, threshold_mb):
-    if feature_size_mb < threshold_mb:
+    if feature_size_mb  &lt; threshold_mb:
         return "broadcast"
     else:
         return "distributed_windowed"

@@ -6,7 +6,7 @@
 
 [role="_abstract"]
 .Ray usage examples
-.. Retrive Ray basic historical data
+.. Retrieve Ray basic historical data
 
 [source,python]
 ----

@@ -10,7 +10,7 @@
 * Your Ray cluster is running.
 
 .Procedure
-* Configure the Ray compute engine in your `feature_store.yaml file:`
+* Configure the Ray compute engine in your `feature_store.yaml` file:
 
 |===
 | YAML | Available options
@@ -47,7 +47,7 @@ offline_store:
 a| [source, yaml]
 ----
 batch_engine:
- type: ray.engine
+    type: ray.engine
     max_workers: 4 
 ----                        
 |Maximum number of workers
@@ -141,7 +141,7 @@ ray_address: localhost
 |`kuberay_conf`
 |dictionary
 |none
-|This enables KubeRay configuration dictionary with keys: `cluster_name` (required), namespace (default: default), `auth_token`, `auth_server`, `skip_tls`(default: false).
+|This enables KubeRay configuration dictionary with keys: `cluster_name` (required), namespace (default: default), `auth_token`, `auth_server`, `skip_tls` (default: false).
 
 |`enable_ray_logging`
 |boolean

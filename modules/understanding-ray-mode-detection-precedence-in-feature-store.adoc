@@ -12,6 +12,6 @@ You can easily manage mode detection precedence since the Ray compute engine aut
 * Config `ray_address` (→) Remote mode
 * Default (→) Local mode
 
-NOTE: It is recommended that you use KubeRay mode with {org-name}.
+NOTE: It is recommended that you use KubeRay mode.
 
-NOTE: For Ray usage examples of, see Ray compute engine usage examples.
+NOTE: For more information about Ray compute engine usage examples, see Ray compute engine usage examples.

@@ -25,4 +25,3 @@ batch_engine:
     target_partition_size_mb: 512        # Larger partitions
     window_size_for_joins: "2H"          # Larger time windows
 ----
-

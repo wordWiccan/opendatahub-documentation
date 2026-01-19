@@ -1,6 +1,6 @@
 :_module-type: CONCEPT
 
-[id="understanding-ray-monitoring-and-metrics-in-feature store_{context}"]
+[id="understanding-ray-monitoring-and-metrics-in-feature-store_{context}"]
 
 == Understanding Ray monitoring and metrics in Feature Store
 You can check cluster resources and monitor job progress when working with the Ray compute engine.
